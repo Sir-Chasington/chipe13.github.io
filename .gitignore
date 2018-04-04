@@ -1,6 +1,5 @@
 /node_modules
 /output
-build
 dist
 tmp
 yarn.lock
