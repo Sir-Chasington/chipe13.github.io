@@ -1,0 +1,19 @@
+{
+  "name": "react-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel index.html -d tmp --open",
+    "build": "parcel build src/index.js -o react-quick-start.min -d build/js"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}
